@@ -42,7 +42,7 @@ const LoginView = () => {
     <Container maxWidth={"xs"} sx={{ mt: 6 }}>
       <Stack alignItems="center">
         <Typography variant="h2" color="text.secondary" sx={{ mb: 6 }}>
-          <Link to="/" color="inherit" underline="none">
+          <Link to="/" color="red" underline="none">
             RedPost
           </Link>
         </Typography>
