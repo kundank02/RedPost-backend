@@ -10,3 +10,4 @@ router.get("/post/:id", commentControllers.getPostComments);
 router.get("/user/:id", commentControllers.getUserComments);
 
 module.exports = router;
+

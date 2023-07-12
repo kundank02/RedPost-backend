@@ -9,15 +9,13 @@ const posts = require("./routes/posts");
 const users = require("./routes/users");
 const comments = require("./routes/comments");
 const messages = require("./routes/messages");
-const PostLike = require("./models/PostLike");
-const Post = require("./models/Post");
 
 dotenv.config();
 
 const httpServer = require("http").createServer(app);
 const io = require("socket.io")(httpServer, {
   cors: {
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000", "http://redpost-k02.netlify.app"],
   },
 });
 
